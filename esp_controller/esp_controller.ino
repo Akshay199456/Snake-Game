@@ -1,11 +1,14 @@
+/*
+I found this code online. It is the basis for the communication using the nodeMCU.
+*/
 #include <PubSubClient.h>
 #include <ESP8266WiFi.h>
 
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
 #define MQTT_SERVER "73.32.15.220"
-const char* ssid = "Rama House";
-const char* password = "varalaxmi";
+const char* ssid = "UHWireless";
+const char* password = "";
 
 char* topic = "controls";
 
