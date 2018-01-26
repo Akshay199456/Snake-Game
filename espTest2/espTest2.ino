@@ -1,3 +1,7 @@
+/*
+This was a test file for the communication between the nodeMCU and the MQTT server.
+The only difference between this and espTest is it was changed for a second robot.(the topics are different)
+*/
 /*#include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
