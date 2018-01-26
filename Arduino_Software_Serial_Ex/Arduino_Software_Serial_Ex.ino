@@ -1,3 +1,4 @@
+//This is a test file to see if the arduino can recieve UART messages from the nodeMCU
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(4,5);//4 is RX -> TX of other device, 5 is TX -> RX of other device
