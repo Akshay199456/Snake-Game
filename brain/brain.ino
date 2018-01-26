@@ -1,3 +1,7 @@
+/*
+Rough outline of the brain functionality. Right now if the arduino recieves a number between 0 and 4, it will print to the terminal a function.
+Eventually, this will change to control the motors based on the input.
+*/
 #include <ZumoMotors.h>
 #include <SoftwareSerial.h>
 
