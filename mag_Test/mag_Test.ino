@@ -1,3 +1,6 @@
+/*
+Testing out the magnetometer to accurately know where the robots are on the board.
+*/
 #include <Wire.h>
 #include <LSM303.h>
 #include <ZumoMotors.h>
